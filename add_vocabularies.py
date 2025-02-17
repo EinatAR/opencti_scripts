@@ -6,9 +6,9 @@ file_path = "OpenCTI vocabularies_example.xlsx"
 xls = pd.ExcelFile(file_path)
 
 # GraphQL API endpoint and authentication token
-API_URL = "https://enisa.octi.filigran.io/graphql"
+API_URL = "https://somthing.octi.filigran.io/graphql"
 HEADERS = {
-    "Authorization": "Bearer a018f5c5-5b54-4994-b8d5-9c45d6bb9a1a",
+    "Authorization": "Bearer API_KEY",
     "Content-Type": "application/json"
 }
 
